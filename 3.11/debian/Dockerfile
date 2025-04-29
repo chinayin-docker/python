@@ -10,3 +10,7 @@ LABEL maintainer="chinayin <whereismoney@qq.com>"
 ENV DEBIAN_FRONTEND=noninteractive
 
 COPY prebuildfs /
+
+RUN set -eux \
+    pip install --no-cache-dir --upgrade pip \
+    pip install --no-cache-dir pipenv
