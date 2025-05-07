@@ -12,4 +12,5 @@ ENV DEBIAN_FRONTEND=noninteractive
 COPY prebuildfs /
 
 RUN set -eux \
+    install_packages gcc \
     pip install --no-cache-dir --upgrade pip
