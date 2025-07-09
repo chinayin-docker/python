@@ -24,6 +24,7 @@ Docker Image packaging for Python
 You can use the image directly, e.g.
 
 ```
+docker run --rm -it chinayin/python:3.11
 docker run --rm -it chinayin/python:3.12-debian
 ```
 
@@ -33,6 +34,7 @@ than 24 hours ago.
 You can also use the images as a base for your own Dockerfile:
 
 ```
+FROM chinayin/python:3.11
 FROM chinayin/python:3.12-debian
 ```
 
