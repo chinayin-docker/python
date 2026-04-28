@@ -4,7 +4,7 @@
 #--------------------------------------------------------------------------
 #
 
-ARG PYTHON_VERSION=3.12.11
+ARG PYTHON_VERSION=3.12.13
 FROM python:${PYTHON_VERSION}-alpine
 LABEL maintainer="chinayin <whereismoney@qq.com>"
 ENV DEBIAN_FRONTEND=noninteractive
